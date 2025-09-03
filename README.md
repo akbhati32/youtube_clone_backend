@@ -110,7 +110,6 @@ npm start       # Runs app in production mode (without nodemon)
 
 - `POST /register` – Register new user
 - `POST /login` – Login user and return token
-- `GET /me` – Get logged-in user info
 
 ### Video Routes – `/api/videos`
 
