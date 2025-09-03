@@ -115,7 +115,7 @@ npm start       # Runs app in production mode (without nodemon)
 
 - `GET /search` – Search videos   
 - `GET /` – Get all videos
-- `GET /user` - Get videos uploaded by logged-in user               |
+- `GET /user` - Get videos uploaded by logged-in user
 - `GET /:id` - Get a single video by ID     
 - `POST /upload` – Upload a new video (with thumbnail & video)  
 - `PUT /:id` – Update a video (protected, with new files)  
@@ -126,11 +126,18 @@ npm start       # Runs app in production mode (without nodemon)
 
 ### Comment Routes – `/api/videos/:videoId/comments`
 
-- `POST /api/videos/:videoId/comments` – Add a comment (protected)  
-- `GET /api/videos/:videoId/comments` – Get comments on a video  
-- `PUT /api/videos/:videoId/comments/:commentId` – Edit a comment (protected)  
-- `DELETE /api/videos/:videoId/comments/:commentId` – Delete a comment (protected)  
+- `POST /` – Add a comment (protected)  
+- `GET /` – Get comments on a video  
+- `PUT /:commentId` – Edit a comment (protected)  
+- `DELETE /:commentId` – Delete a comment (protected)  
 
+### Channel Routes – `/api/channels`
+
+- `POST /` – Create a channel (with banner)  
+- `GET /:id ` – Get a channel by ID
+- `PUT /:id ` – Update channel info (with banner)
+- `DELETE /:id ` – Delete a channel
+- `POST /:id/subscribe` – Toggle subscription to a channel
 ---
 
 ## 📁 Folder Structure
