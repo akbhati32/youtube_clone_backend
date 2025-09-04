@@ -12,7 +12,7 @@ It provides a RESTful API for the frontend, supporting authentication, video upl
 ---
 
 
-## live video demo
+## Video Demo
 - [video demo](https://res.cloudinary.com/dqnqkvncm/video/upload/v1757001845/Final-VEED_eymtso.mp4)
 
 ---
