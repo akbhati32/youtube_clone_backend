@@ -10,7 +10,7 @@ import {
   searchVideos,
   updateVideo,
   uploadVideo,
-} from "../controllers/VideoController.js";
+} from "../controllers/videoController.js";
 
 import { protect } from "../middleware/authMiddleware.js";
 import { uploadBoth } from "../middleware/multer.js";
