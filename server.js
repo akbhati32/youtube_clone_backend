@@ -19,7 +19,10 @@ const app = express();
 // Enable CORS for frontend (allow credentials, methods, and headers)
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: [
+      "http://localhost:5173",
+      "https://youtube-clone-frontend-blue.vercel.app/",
+    ],
     credentials: true,
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
