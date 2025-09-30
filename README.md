@@ -13,8 +13,7 @@ It provides a RESTful API for the frontend, supporting authentication, video upl
 
 ## Live Link
 
-🔗 [Youtube Clone Frontend](https://youtube-clone-frontend-blue.vercel.app)
-🔗 [Youtube Clone Backend](https://youtube-clone-backend-zmct.onrender.com)
+- [Youtube Clone](https://youtube-clone-frontend-blue.vercel.app)
 
 ---
 
