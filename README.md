@@ -5,9 +5,16 @@ It provides a RESTful API for the frontend, supporting authentication, video upl
 
 ---
 
-## github repository
+## Github Repository
 
 🔗 [Youtube Clone Backend](https://github.com/akbhati32/youtube_clone_backend.git)
+
+---
+
+## Live Link
+
+🔗 [Youtube Clone Frontend](https://youtube-clone-frontend-blue.vercel.app)
+🔗 [Youtube Clone Backend](https://youtube-clone-backend-zmct.onrender.com)
 
 ---
 
